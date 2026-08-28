@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("./Imagenes/Fondo.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.indice {
+    width: 100%;
+    height:825px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+.indice div {
+    border: 5px black solid;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.indice div h2 {
+    padding-block: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 30px;
+}
+
+.contenedor-textos {
+    background-color: #a0b0b3;
+}
+
+.textos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.textos a {
+    padding-block: 15px;
+    display: flex;
+    align-items: center;
+}
+
+h1 a{
+    padding-left: 35px;
+    font-size: 55px;
+    color: #a0b0b3;
+    text-decoration: none;
+}
+
+h1 {
+    padding-left: 35px;
+    font-size: 55px;
+    color: #a0b0b3;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.links {
+    padding-right: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.links a {
+    color: #a0b0b3;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+}
+
+#contenido {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 800px;
+    background-color: rgb(255, 236, 202);
+    padding: 30px;
+    text-indent: 2em;
+    line-height: 3;
+}
+
+#contenido h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#contenido h2{
+    text-align: center;
+}
+
+#contenido h5 {
+    text-align: center;
+}
