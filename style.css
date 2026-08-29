@@ -19,17 +19,20 @@ body {
 }
 
 
-.indice div {
-    border: 5px black solid;
-    width: 40%;
+.contenedor-textos {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 25px;
+    width: 650px;
+    background-color: black;
+    border: 5px solid #a0b0b3;
 }
+
 
 .indice div h2 {
     padding-block: 30px;
+    color: #a0b0b3;
 }
 
 main {
@@ -39,15 +42,14 @@ main {
     margin-block: 30px;
 }
 
-.contenedor-textos {
-    background-color: #a0b0b3;
-}
-
 .textos {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 30px;
+    width: 550px;
+    background-color: #a0b0b3;
+
 }
 
 .textos a {
@@ -117,7 +119,7 @@ a:hover {
 
 #contenido h3{
     text-align: center;
-    padding-bottom: 30px;
+
 }
 
 #contenido h2{
@@ -126,4 +128,5 @@ a:hover {
 
 #contenido h5 {
     text-align: center;
+    padding: 0px;
 }
